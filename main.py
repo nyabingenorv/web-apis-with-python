@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import FastAPI
 from model.dbHandler import match_exact, match_like
 
-app = Flask(__name__)
+app = FastAPI()
 
 
 @app.get("/")
